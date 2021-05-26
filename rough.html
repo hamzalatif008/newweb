@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<label>Name</label>
+	<input type="text" name="na" placeholder="Enter Name" id="name"> <br>
+	<label>Father Name</label>
+	<input type="text" name="fna" placeholder="Enter Father Name" id="fname"> <br>
+	<!-- <button onclick="getdisplay()">Submit</button>
+ -->
+<button onclick="myFunction()">Try it</button>
+<h1 id="display" style="border: 2px solid black;">
+	jhjkhj kjhk hk kjh
+</h1>
+<!-- <script>
+function myFunction() {
+  alert("Hello! I am an alert box!");
+}
+</script> -->
+
+	<script>
+
+		// function myAction(){
+		// 	alert('asdf');
+		// }	
+
+		function myFunction(){
+			var use=document.getElementById("name").value;
+			var user=document.getElementById("fname").value;
+			// alert(use);
+			document.getElementsById("display").innerHTML="Name:" + user  + "F Name" + use;
+			return 0;
+			// document.write("Name:"+ use +"<br>");
+			// document.write("F_Name:"+ user +"<br>");
+		}
+	</script>
+</body>
+</html>

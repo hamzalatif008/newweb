@@ -1,0 +1,126 @@
+.navbar-brand{
+	margin-left: 50px;
+	font-size: 100px;
+	font-family: fantasy;
+}
+#ha{
+	font-size: 25px;
+	padding-left: 50px;
+
+}
+/*.container-fluid{
+	margin-left: 200px;
+}*/
+.margin2{
+	/*margin-left: 400px;*/
+}
+#Design{
+	background-image: url(images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg);
+	height: 400px;
+}
+.work{
+	margin-top: 100px;
+}
+@media(max-width: 1000px){
+	.work{
+		font-size: 20px;
+			padding-top: 30px;
+	}
+}
+.colo1{
+	color: white;
+}
+.colo2{
+	color: white;
+}
+.center{
+	margin-top: 100px;
+}
+/*#chen2{
+	margin-left: 29.5%;
+}*/
+button{
+	height: 50px;
+	
+
+}
+.contain{
+	height: 270px;
+}
+/*@media(max-width: 800px){
+	.contain{
+		max-height: 400px;
+	}
+}*/
+/*.col{
+	border-right: 1px solid gray;
+}*/
+.col{
+	color: white;
+}
+#div3{
+	color: white;
+	background-color: hsl(13deg 74% 60%);
+}
+form{
+
+
+	/*padding-left: 100px;*/
+}
+.row{
+	/* */
+}
+.css1{
+	padding: 50px 0px 0px 100px;
+	padding-left: 100px;
+}
+.css2{
+	padding: 30px 0px 0px 50px;
+}
+.css3{
+	padding: 30px 0px 0px 50px;
+}
+.css4{
+	padding: 30px 0px 0px 50px;
+}
+.css5{
+	padding: 30px 0px 0px 50px;
+}
+.hamm{
+	border-bottom: 1px solid black;
+}
+@media(max-width: 800px){
+	.imgss{
+		width: 100%;
+
+	}
+}
+@media (max-width: 800px){
+	.make{
+		font-size: 10px;
+
+	}
+}
+@media (max-width: 800px){
+	.responsive{
+		height: 200px;
+	}
+}
+.display-4{
+	padding: 20px;
+	color: ;
+}
+tr:nth-child(even),table.list thead>tr{
+    background-color: #ddd;
+}
+/*input[type="text"], input[type="number"]{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}*/
+table.list{
+    width: 100%;
+}

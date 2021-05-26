@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<script src="js/jquery.js"></script>
+<body>
+
+<form >
+<label>Name</label>
+<input type="text" name="ali" id="nam"> <br>
+<label>Father Name</label>
+<input type="text" name="text" id="name">
+</form>
+<button onclick="myFunction()" id="myclick">Submit</button>
+
+<div id="demo" style="border: 2px solid black;"></div>
+
+<script>
+// function myFunction() {
+//   var a=document.getElementById("nam").value; 
+//    var b=document.getElementById("name").value;
+//   document.getElementById("demo").innerHTML="Your Name:"+ a + "<br>"+ "Your Father Name:"+ b;
+  
+  
+// }
+$(document).ready(function(){
+	$("#myclick").click(function(){
+		$("#nam,#name").change(function(){
+			var a=$(this).val();
+			var b=$(this).val();
+		$("#demo").html(a);
+		$("#demo").html(b);
+		});
+		
+	})
+})
+</script>
+
+</body>
+</html>
